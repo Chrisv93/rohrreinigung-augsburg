@@ -14,6 +14,7 @@ button {background:#e60023; color:white; padding:16px; border:none; width:100%; 
 input, textarea {width:100%; padding:12px; margin-bottom:10px; font-size:14px;}
 .urgent {color:#e60023; font-weight:bold;}
 .small {font-size:13px; color:#666;}
+a {color:#e60023; text-decoration:none;}
 </style>
 </head>
 
@@ -24,8 +25,18 @@ input, textarea {width:100%; padding:12px; margin-bottom:10px; font-size:14px;}
 <div class="box">
 <h1>🚨 Rohr verstopft in Augsburg?</h1>
 <p class="urgent">Soforthilfe bei Abfluss, WC oder Rohr – jetzt Anfrage senden</p>
+
 <button onclick="document.getElementById('form').scrollIntoView()">JETZT SOFORT HILFE</button>
-<p class="small">✔ schnelle Rückmeldung<br>✔ lokale Vermittlung<br>✔ unverbindlich</p>
+
+<p style="margin-top:10px; font-weight:bold;">
+📞 Direkt anrufen: <a href="tel:+49123456789">+49 123 456789</a>
+</p>
+
+<p class="small">
+✔ schnelle Rückmeldung<br>
+✔ lokale Vermittlung<br>
+✔ unverbindlich
+</p>
 </div>
 
 <div class="box">
@@ -43,8 +54,18 @@ input, textarea {width:100%; padding:12px; margin-bottom:10px; font-size:14px;}
 <p>Kosten hängen von Aufwand und Uhrzeit ab. Sie erhalten nach Ihrer Anfrage schnell eine Einschätzung.</p>
 </div>
 
+<div class="box">
+<h2>Warum diese Anfrage sinnvoll ist</h2>
+<ul>
+<li>✔ keine Abzocke-Portale</li>
+<li>✔ lokale Weiterleitung</li>
+<li>✔ schnelle Einschätzung vor Einsatz</li>
+</ul>
+</div>
+
 <div class="box" id="form">
 <h2>⚡ Rückruf anfordern</h2>
+
 <form action="https://formsubmit.co/YOURMAIL@gmail.com" method="POST">
 
 <input type="text" name="name" placeholder="Name" required>
@@ -55,7 +76,14 @@ input, textarea {width:100%; padding:12px; margin-bottom:10px; font-size:14px;}
 <button type="submit">JETZT ANFRAGE SENDEN</button>
 
 </form>
+
 <p class="small">Antwort so schnell wie möglich</p>
+</div>
+
+<div class="box">
+<h2>🚨 Jetzt schnell handeln</h2>
+<p>Bei verstopften Rohren zählt jede Minute.</p>
+<button onclick="document.getElementById('form').scrollIntoView()">JETZT HILFE ANFORDERN</button>
 </div>
 
 <div class="box">
