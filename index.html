@@ -4,15 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rohrreinigung Notdienst Augsburg – Soforthilfe</title>
-<meta name="description" content="Rohr verstopft? Soforthilfe in Augsburg. Jetzt Anfrage senden oder Rückruf erhalten.">
 
 <style>
-body {font-family: Arial; margin:0; padding:0; background:#f7f7f7;}
-.container {max-width:600px; margin:auto; padding:20px;}
-.box {background:white; padding:20px; border-radius:8px; margin-bottom:20px;}
-h1 {font-size:24px;}
-button {background:#007bff; color:white; padding:15px; border:none; width:100%; font-size:16px; border-radius:6px;}
-input, textarea {width:100%; padding:10px; margin-bottom:10px;}
+body {font-family: Arial; margin:0; background:#f7f7f7;}
+.container {max-width:600px; margin:auto; padding:15px;}
+.box {background:white; padding:18px; border-radius:8px; margin-bottom:15px;}
+h1 {font-size:22px; margin-bottom:10px;}
+button {background:#e60023; color:white; padding:16px; border:none; width:100%; font-size:16px; border-radius:6px;}
+input, textarea {width:100%; padding:12px; margin-bottom:10px; font-size:14px;}
+.urgent {color:#e60023; font-weight:bold;}
+.small {font-size:13px; color:#666;}
 </style>
 </head>
 
@@ -21,35 +22,40 @@ input, textarea {width:100%; padding:10px; margin-bottom:10px;}
 <div class="container">
 
 <div class="box">
-<h1>Rohrreinigung Notdienst Augsburg</h1>
-<p>Schnelle Hilfe bei verstopftem Abfluss, WC oder Rohr.</p>
-<button onclick="document.getElementById('form').scrollIntoView()">Jetzt Hilfe anfordern</button>
+<h1>🚨 Rohr verstopft in Augsburg?</h1>
+<p class="urgent">Soforthilfe bei Abfluss, WC oder Rohr – jetzt Anfrage senden</p>
+<button onclick="document.getElementById('form').scrollIntoView()">JETZT SOFORT HILFE</button>
+<p class="small">✔ schnelle Rückmeldung<br>✔ lokale Vermittlung<br>✔ unverbindlich</p>
 </div>
 
 <div class="box">
-<h2>Typische Probleme</h2>
+<h2>Typische Notfälle</h2>
 <ul>
-<li>Toilette verstopft</li>
-<li>Abfluss läuft nicht ab</li>
-<li>Wasser staut sich</li>
+<li>Toilette komplett verstopft</li>
+<li>Wasser läuft nicht mehr ab</li>
+<li>Abfluss überläuft</li>
 <li>Starker Geruch aus Rohr</li>
 </ul>
 </div>
 
 <div class="box">
-<h2>Was kostet es?</h2>
-<p>Die Kosten hängen von Aufwand, Uhrzeit und Problem ab. Sie erhalten eine schnelle Einschätzung nach Ihrer Anfrage.</p>
+<h2>Wichtig zu wissen</h2>
+<p>Kosten hängen von Aufwand und Uhrzeit ab. Sie erhalten nach Ihrer Anfrage schnell eine Einschätzung.</p>
 </div>
 
 <div class="box" id="form">
-<h2>Rückruf anfordern</h2>
-<form>
-<input type="text" placeholder="Name" required>
-<input type="tel" placeholder="Telefonnummer" required>
-<input type="text" placeholder="PLZ / Ort" required>
-<textarea placeholder="Problem kurz beschreiben"></textarea>
-<button type="submit">Jetzt Anfrage senden</button>
+<h2>⚡ Rückruf anfordern</h2>
+<form action="https://formsubmit.co/YOURMAIL@gmail.com" method="POST">
+
+<input type="text" name="name" placeholder="Name" required>
+<input type="tel" name="phone" placeholder="Telefonnummer" required>
+<input type="text" name="location" placeholder="PLZ / Ort" required>
+<textarea name="problem" placeholder="Problem kurz beschreiben"></textarea>
+
+<button type="submit">JETZT ANFRAGE SENDEN</button>
+
 </form>
+<p class="small">Antwort so schnell wie möglich</p>
 </div>
 
 <div class="box">
